@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ahmed Abbas - Professional Video Editor Portfolio. Specializing in cinematic storytelling, YouTube growth, and high-impact visual content.">
+    <title>Ahmed Abbas | Professional Video Editor</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome for Icons (Optional but recommended for social links) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">Ahmed <span class="accent">Abas</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+                <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                <li><a href="#contact" class="btn-nav" data-i18n="nav_contact">Contact Me</a></li>
+                <li class="nav-controls">
+                    <button id="lang-toggle" aria-label="Toggle Language" class="icon-btn">EN</button>
+                    <button id="theme-toggle" aria-label="Toggle Dark Mode" class="icon-btn"><i
+                            class="fas fa-sun"></i></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text-content">
+                <h2 class="animate-fade-up delay-1" data-i18n="hero_greeting">Hello, I'm</h2>
+                <h1 class="animate-fade-up delay-2" data-i18n="hero_name">Ahmed Abbas</h1>
+                <h3 class="animate-fade-up delay-3"><span data-i18n="hero_title_prefix">Professional</span> <span
+                        class="text-gradient" data-i18n="hero_title_accent">Video Editor</span></h3>
+                <p class="hero-text animate-fade-up delay-4" data-i18n="hero_desc">
+                    Crafting cinematic narratives that captivate audiences. I specialize in transforming raw footage
+                    into high-impact visual stories for YouTube, social media, and digital brands.
+                </p>
+                <div class="cta-group animate-fade-up delay-5">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero_btn_projects">View Projects</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="hero_btn_contact">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-content animate-fade-up delay-3">
+                <div class="hero-img-placeholder">
+                    <img src="img/profile.jpg" alt="Ahmed Abas">
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="about_title_1">About</span> <span class="accent"
+                    data-i18n="about_title_2">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <div class="about-slideshow">
+                        <div class="slideshow-overlay"></div>
+                        <img src="img/1.gif" alt="Project Highlight 1" class="slide active">
+                        <img src="img/2.gif" alt="Project Highlight 2" class="slide">
+                        <img src="img/3.gif" alt="Project Highlight 3" class="slide">
+                        <img src="img/4.gif" alt="Project Highlight 4" class="slide">
+                        <img src="img/5.gif" alt="Project Highlight 5" class="slide">
+                    </div>
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <p data-i18n="about_text_1">
+                        With over <strong>+5 years of professional experience</strong> in the video editing industry, I
+                        have mastered the art of storytelling through precision cutting, color grading, and immersive
+                        sound design.
+                    </p>
+                    <p data-i18n="about_text_2">
+                        My expertise spans diverse sectors including medical, marketing, real estate, and documentary
+                        filmmaking. I understand that great editing isn't just about technical skills—it's about
+                        emotion, pacing, and retention. My goal is to deliver creative solutions that not only look
+                        stunning but also drive engagement and tangible results for creators and brands alike.
+                    </p>
+
+                    <div class="career-objective-box">
+                        <h4 data-i18n="about_objective_title">Career Objective</h4>
+                        <p data-i18n="about_objective_text">To forge strategic partnerships with top-tier creators and
+                            global brands, delivering
+                            cinematic video editing that defines industry standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="skills_title_1">My</span> <span class="accent"
+                    data-i18n="skills_title_2">Skills</span></h2>
+
+            <div class="skills-category animate-on-scroll">
+                <h3 data-i18n="skills_cat_editing">Video Editing</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-video"></i>
+                        <span data-i18n="skill_long_form">Long Form YouTube</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span data-i18n="skill_shorts">Shorts / Reels</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-film"></i>
+                        <span data-i18n="skill_cinematic">Cinematic Videos</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-photo-video"></i>
+                        <span data-i18n="skill_docu">Documentary Style</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category animate-on-scroll">
+                <h3 data-i18n="skills_cat_visual">Visual & Audio</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-palette"></i>
+                        <span data-i18n="skill_grading">Color Grading</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-volume-up"></i>
+                        <span data-i18n="skill_sound">Sound Design</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-magic"></i>
+                        <span data-i18n="skill_vfx">VFX & Transitions</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-sliders-h"></i>
+                        <span data-i18n="skill_audio_cleanup">Audio Cleanup & Mixing</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category animate-on-scroll">
+                <h3 data-i18n="skills_cat_tools">Tools & Tech</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-file-video"></i>
+                        <span>Premiere Pro</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-bezier-curve"></i>
+                        <span>After Effects</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-robot"></i>
+                        <span data-i18n="skill_ai">AI Enhancement</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-fill-drip"></i>
+                        <span>DaVinci Resolve</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="projects_title_1">My</span> <span class="accent"
+                    data-i18n="projects_title_2">YouTube Channels</span></h2>
+            <div class="projects-grid channels-grid element-center">
+
+                <article class="project-card animate-on-scroll channel-card">
+                    <a href="https://www.youtube.com/@CodingVi" target="_blank" class="card-link-wrapper"
+                        aria-label="Visit Coding Vi Channel">
+                        <div class="project-image">
+                            <img src="img/coding-vi-preview.png" alt="Coding Vi Channel Preview">
+                            <div class="channel-overlay">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Coding Vi</h3>
+                            <p class="project-cat" data-i18n="channel_coding_cat">PROGRAMMING & AI CONTENT</p>
+                            <p data-i18n="channel_coding_desc">A YouTube channel focused on producing high-quality
+                                programming and AI content, where I
+                                simplify complex technical topics into engaging, easy-to-follow videos with strong
+                                storytelling and high audience retention.</p>
+                            <span class="btn-link"><span data-i18n="projects_visit_btn">Visit Channel</span> <i
+                                    class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card animate-on-scroll channel-card">
+                    <a href="https://www.youtube.com/@nTa7wol" target="_blank" class="card-link-wrapper"
+                        aria-label="Visit Turning Point Channel">
+                        <div class="project-image">
+                            <img src="img/turning-point-preview.png" alt="Turning Point Channel Preview">
+                            <div class="channel-overlay">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Ahmed Abas | نقطة تحوّل</h3>
+                            <p class="project-cat" data-i18n="channel_turning_cat">DOCUMENTARY & STORYTELLING</p>
+                            <p data-i18n="channel_turning_desc">A documentary-style YouTube channel by Ahmed Abas that
+                                explores powerful real-life
+                                turning points and meaningful stories, presented through cinematic editing, emotional
+                                pacing, and immersive sound design.</p>
+                            <span class="btn-link"><span data-i18n="projects_visit_btn">Visit Channel</span> <i
+                                    class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Video Work Section -->
+    <section id="featured-videos" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="accent">Video Work</span></h2>
+            <div class="video-grid">
+
+                <!-- Video 1 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/04nBgpFngH8">
+                        <img src="img/1.png" alt="Video 1 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_1">Video 1</h3>
+                        <p data-i18n="video_desc_1">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 2 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/Q91G3A34vsw">
+                        <img src="img/2.jpg" alt="Video 2 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_2">Video 2</h3>
+                        <p data-i18n="video_desc_2">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 3 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/89YY2T_rO2o">
+                        <img src="img/3.png" alt="Video 3 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_3">Video 3</h3>
+                        <p data-i18n="video_desc_3">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 4 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/jTDzhFc820M">
+                        <img src="img/4.jpg" alt="Video 4 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_4">Video 4</h3>
+                        <p data-i18n="video_desc_4">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 5 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/WCNMFYEthps">
+                        <img src="img/5.png" alt="Video 5 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_5">Video 5</h3>
+                        <p data-i18n="video_desc_5">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 6 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/l4b6kIbuV-g">
+                        <img src="img/6.jpg" alt="Video 6 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_6">Video 6</h3>
+                        <p data-i18n="video_desc_6">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 7 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/_BXRZTZaMcc">
+                        <img src="img/7.jpg" alt="Video 7 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_7">Video 7</h3>
+                        <p data-i18n="video_desc_7">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 8 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/A5En2EKPEek">
+                        <img src="img/8.jpg" alt="Video 8 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_8">Video 8</h3>
+                        <p data-i18n="video_desc_8">Description</p>
+                    </div>
+                </article>
+
+                <!-- Video 9 -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/M83N-el6BeI">
+                        <img src="img/9.jpg" alt="Video 9 Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_9">Video 9</h3>
+                        <p data-i18n="video_desc_9">Description</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="services_title_1">My</span> <span class="accent"
+                    data-i18n="services_title_2">Services</span></h2>
+            <div class="services-grid">
+
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-play-circle service-icon"></i>
+                    <h3 data-i18n="service_1_title">YouTube Production</h3>
+                    <p data-i18n="service_1_desc">End-to-end editing for long-form content, optimized for retention,
+                        watch time, and algorithm performance.</p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-bolt service-icon"></i>
+                    <h3 data-i18n="service_2_title">Shorts & Reels</h3>
+                    <p data-i18n="service_2_desc">Punchy, fast-paced editing for Instagram Reels and TikTok designed to
+                        grab attention instantly.</p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-film service-icon"></i>
+                    <h3 data-i18n="service_3_title">Cinematic Editing</h3>
+                    <p data-i18n="service_3_desc">Advanced color grading, sound design, and narrative pacing for
+                        documentaries, trailers, and commercials.</p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-shapes service-icon"></i>
+                    <h3 data-i18n="service_4_title">Motion Graphics</h3>
+                    <p data-i18n="service_4_desc">Custom motion graphics, titles, and visual effects to elevate your
+                        brand identity and production value.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt contact-section">
+        <div class="container contact-container">
+            <div class="contact-info animate-on-scroll">
+                <h2 class="section-title text-left"><span data-i18n="contact_title_1">Let's</span> <span class="accent"
+                        data-i18n="contact_title_2">Collaborate</span></h2>
+                <p data-i18n="contact_text">Ready to take your video content to the next level? Get in touch and let's
+                    create something
+                    cinematic.</p>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/BnAbas5o/" target="_blank" aria-label="Facebook"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/bnabass_50/" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bnabas/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/bnabas50" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                </div>
+
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span><a href="mailto:ahmedabassiii26@gmail.com">ahmedabassiii26@gmail.com</a></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-i18n="contact_location">Remote / Cairo</span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form animate-on-scroll">
+                <div class="form-group">
+                    <label for="name" data-i18n="form_name_label">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required
+                        data-i18n-placeholder="form_name_placeholder">
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="form_email_label">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required
+                        data-i18n-placeholder="form_email_placeholder">
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="form_message_label">Message</label>
+                    <textarea id="message" rows="5" placeholder="Tell me about your project..." required
+                        data-i18n-placeholder="form_message_placeholder"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-i18n="form_btn_submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/BnAbas5o/" target="_blank" aria-label="Facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/201092429659" target="_blank" aria-label="WhatsApp"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/bnabass_50/" target="_blank" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@CodingVi" target="_blank" aria-label="YouTube"><i
+                        class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2026 Ahmed Abbas. <span data-i18n="footer_rights">All Rights Reserved.</span></p>
+            <a href="#hero" class="back-to-top"><span data-i18n="footer_top">Back to Top</span> <i
+                    class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="video-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-wrapper">
+                <video id="modal-video-player" controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
