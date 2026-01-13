@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Initialize Language (Default to 'ar')
-    const savedLang = localStorage.getItem('lang') || 'ar';
+    const savedLang = localStorage.getItem('lang') || 'en';
     setLanguage(savedLang);
 
     // Toggle Listener
