@@ -116,69 +116,41 @@
             <h2 class="section-title"><span data-i18n="skills_title_1">My</span> <span class="accent"
                     data-i18n="skills_title_2">Skills</span></h2>
 
-            <div class="skills-category animate-on-scroll">
-                <h3 data-i18n="skills_cat_editing">Video Editing</h3>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <i class="fas fa-video"></i>
-                        <span data-i18n="skill_long_form">Long Form YouTube</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-mobile-alt"></i>
-                        <span data-i18n="skill_shorts">Shorts / Reels</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-film"></i>
-                        <span data-i18n="skill_cinematic">Cinematic Videos</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-photo-video"></i>
-                        <span data-i18n="skill_docu">Documentary Style</span>
-                    </div>
+            <div class="services-grid">
+                <!-- Video Editing Card -->
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-video service-icon"></i>
+                    <h3 data-i18n="skills_cat_editing">Video Editing</h3>
+                    <ul class="skill-list">
+                        <li data-i18n="skill_long_form">Long Form YouTube</li>
+                        <li data-i18n="skill_shorts">Shorts / Reels</li>
+                        <li data-i18n="skill_cinematic">Cinematic Videos</li>
+                        <li data-i18n="skill_docu">Documentary Style</li>
+                    </ul>
                 </div>
-            </div>
 
-            <div class="skills-category animate-on-scroll">
-                <h3 data-i18n="skills_cat_visual">Visual & Audio</h3>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <i class="fas fa-palette"></i>
-                        <span data-i18n="skill_grading">Color Grading</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-volume-up"></i>
-                        <span data-i18n="skill_sound">Sound Design</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-magic"></i>
-                        <span data-i18n="skill_vfx">VFX & Transitions</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-sliders-h"></i>
-                        <span data-i18n="skill_audio_cleanup">Audio Cleanup & Mixing</span>
-                    </div>
+                <!-- Visual & Audio Card -->
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-photo-video service-icon"></i>
+                    <h3 data-i18n="skills_cat_visual">Visual & Audio</h3>
+                    <ul class="skill-list">
+                        <li data-i18n="skill_grading">Color Grading</li>
+                        <li data-i18n="skill_sound">Sound Design</li>
+                        <li data-i18n="skill_vfx">VFX & Transitions</li>
+                        <li data-i18n="skill_audio_cleanup">Audio Cleanup & Mixing</li>
+                    </ul>
                 </div>
-            </div>
 
-            <div class="skills-category animate-on-scroll">
-                <h3 data-i18n="skills_cat_tools">Tools & Tech</h3>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <i class="fas fa-file-video"></i>
-                        <span>Premiere Pro</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-bezier-curve"></i>
-                        <span>After Effects</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-robot"></i>
-                        <span data-i18n="skill_ai">AI Enhancement</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-fill-drip"></i>
-                        <span>DaVinci Resolve</span>
-                    </div>
+                <!-- Tools & Tech Card -->
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-tools service-icon"></i>
+                    <h3 data-i18n="skills_cat_tools">Tools & Tech</h3>
+                    <ul class="skill-list">
+                        <li>Premiere Pro</li>
+                        <li>After Effects</li>
+                        <li>DaVinci Resolve</li>
+                        <li data-i18n="skill_ai">AI Enhancement</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -245,7 +217,22 @@
             <h2 class="section-title">Featured <span class="accent">Video Work</span></h2>
             <div class="video-grid">
 
-                <!-- Video 1 -->
+                <!-- JU Group Video (New #1) -->
+                <article class="video-card animate-on-scroll">
+                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/SWRy74h5x8Y">
+                        <img src="img/3.png" alt="JU Group Promo Preview" class="video-preview-img">
+                        <div class="play-button-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3 data-i18n="video_title_ju">JU Group Saudi Automotive Promotional Video</h3>
+                        <p data-i18n="video_desc_ju">A professional promotional video showcasing JU Group’s presence in
+                            the Saudi automotive market.</p>
+                    </div>
+                </article>
+
+                <!-- Video 1 (Old #1) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/04nBgpFngH8">
                         <img src="img/1.png" alt="Video 1 Preview" class="video-preview-img">
@@ -259,7 +246,7 @@
                     </div>
                 </article>
 
-                <!-- Video 8 -->
+                <!-- Video 8 (Old #2) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/A5En2EKPEek">
                         <img src="img/8.jpg" alt="Video 8 Preview" class="video-preview-img">
@@ -273,7 +260,7 @@
                     </div>
                 </article>
 
-                <!-- Video 2 -->
+                <!-- Video 2 (Old #3) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/Q91G3A34vsw">
                         <img src="img/2.jpg" alt="Video 2 Preview" class="video-preview-img">
@@ -287,7 +274,7 @@
                     </div>
                 </article>
 
-                <!-- Video 6 -->
+                <!-- Video 6 (Old #4) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/l4b6kIbuV-g">
                         <img src="img/6.jpg" alt="Video 6 Preview" class="video-preview-img">
@@ -301,7 +288,7 @@
                     </div>
                 </article>
 
-                <!-- Video 7 -->
+                <!-- Video 7 (Old #5) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/_BXRZTZaMcc">
                         <img src="img/7.jpg" alt="Video 7 Preview" class="video-preview-img">
@@ -315,7 +302,7 @@
                     </div>
                 </article>
 
-                <!-- Video 4 -->
+                <!-- Video 4 (Old #6) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/jTDzhFc820M">
                         <img src="img/4.jpg" alt="Video 4 Preview" class="video-preview-img">
@@ -329,7 +316,7 @@
                     </div>
                 </article>
 
-                <!-- Video 5 -->
+                <!-- Video 5 (Old #7) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/WCNMFYEthps">
                         <img src="img/5.png" alt="Video 5 Preview" class="video-preview-img">
@@ -343,7 +330,7 @@
                     </div>
                 </article>
 
-                <!-- Video 9 -->
+                <!-- Video 9 (Old #8) -->
                 <article class="video-card animate-on-scroll">
                     <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/M83N-el6BeI">
                         <img src="img/9.jpg" alt="Video 9 Preview" class="video-preview-img">
@@ -354,20 +341,6 @@
                     <div class="video-info">
                         <h3 data-i18n="video_title_9">Video 9</h3>
                         <p data-i18n="video_desc_9">Description</p>
-                    </div>
-                </article>
-
-                <!-- Video 3 -->
-                <article class="video-card animate-on-scroll">
-                    <div class="video-thumbnail" data-video-src="https://www.youtube.com/embed/89YY2T_rO2o">
-                        <img src="img/3.png" alt="Video 3 Preview" class="video-preview-img">
-                        <div class="play-button-overlay">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="video-info">
-                        <h3 data-i18n="video_title_3">Video 3</h3>
-                        <p data-i18n="video_desc_3">Description</p>
                     </div>
                 </article>
 
@@ -507,4 +480,5 @@
     </div>
     <script src="js/script.js"></script>
 </body>
+
 </html>
