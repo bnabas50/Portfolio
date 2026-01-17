@@ -62,6 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
             video_desc_8: "A promotional reel for a Gulf-based platform specializing in professional camera and filming equipment.",
             video_title_9: "Syrian Marketing Platform Reel",
             video_desc_9: "A promotional reel for a Syrian marketing platform, delivering brand-focused content in a clean and fast-paced style.",
+            video_title_ju: "JU Group Saudi Automotive Promotional Video",
+            video_desc_ju: "A professional promotional video showcasing JU Group’s presence in the Saudi automotive market, using modern visuals, dynamic editing, and a cinematic approach that reflects quality and trust.",
             // Add other videos if needed, but for now we rely on placeholders or basic numbers
             services_title_1: "My",
             services_title_2: "Services",
@@ -148,6 +150,8 @@ document.addEventListener('DOMContentLoaded', () => {
             video_desc_8: "ريل ترويجي لمنصة خليجية متخصصة في توفير معدات التصوير بأسلوب بصري احترافي وسريع.",
             video_title_9: "ريل منصة سوق موثوق",
             video_desc_9: "ريل ترويجي لمنصة تسويق سورية يقدّم المحتوى بأسلوب بسيط وسريع يخدم الهوية التجارية.",
+            video_title_ju: "فيديو إعلاني لمجموعة JU السعودية للسيارات",
+            video_desc_ju: "فيديو إعلاني احترافي يبرز قوة وهوية مجموعة JU السعودية في مجال السيارات، من خلال أسلوب بصري عصري، مونتاج ديناميكي، ولمسة سينمائية تعكس الجودة والثقة.",
             services_title_1: "أهم",
             services_title_2: "خدماتي",
             service_1_title: "مونتاج يوتيوب",
@@ -446,4 +450,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
